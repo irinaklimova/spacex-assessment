@@ -41,7 +41,6 @@ function Launches({launches} : {launches: Launch[]}) {
                 {!!checked.length && <Grid item xs={8}>
                     <Box
                         height={200}
-                        display="inline-flex"
                         alignItems="center"
                     >
                         <Typography>
